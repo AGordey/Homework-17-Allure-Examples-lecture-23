@@ -19,13 +19,13 @@ public class AuthTest {
     public void AuthTest() {
         step("Открываем главную страницу");
         step("Нажимаем кнопку авторизация", () -> {
-            step("Вводим логин *login*");
-            step("Вводим пароль *password*");
+            step("Вводим логин *login for test*");
+            step("Вводим пароль *password for test*");
             step("Ставим галочку *Im not robot*");
         });
         step("Нажимаем кнопку Войти");
         step("Открыта главная страница сайта с профилем пользователя");
-        step("Проверить соответствие введенным *login* и *password*");
+        step("Проверить соответствие введенным *login for test* и *password for test*");
     }
 
     @Test
@@ -36,8 +36,8 @@ public class AuthTest {
     public void SearchTest () {
         step("Открываем главную страницу");
         step("Нажимаем кнопку авторизация", () -> {
-            step("Вводим логин *login*");
-            step("Вводим пароль *password*");
+            step("Вводим логин *login for test*");
+            step("Вводим пароль *password for test*");
             step("Ставим галочку *Im not robot*");
         });
         step("Нажимаем кнопку Войти");
@@ -58,8 +58,8 @@ public class AuthTest {
     public void AddToCardTest () {
         step("Открываем главную страницу");
         step("Нажимаем кнопку авторизация", () -> {
-            step("Вводим логин *login*");
-            step("Вводим пароль *password*");
+            step("Вводим логин *login for test*");
+            step("Вводим пароль *password for test*");
             step("Ставим галочку *Im not robot*");
         });
         step("Нажимаем кнопку Войти");
